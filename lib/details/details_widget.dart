@@ -447,18 +447,22 @@ class _DetailsWidgetState extends State<DetailsWidget> {
                                   0.0, 0.0, 0.0, 0.0),
                               color: FlutterFlowTheme.of(context).customColor2,
                               textStyle: FlutterFlowTheme.of(context)
-                                  .labelMedium
+                                  .titleMedium
                                   .override(
-                                    font: GoogleFonts.inter(
-                                      fontWeight: FontWeight.w500,
+                                    font: GoogleFonts.interTight(
+                                      fontWeight: FlutterFlowTheme.of(context)
+                                          .titleMedium
+                                          .fontWeight,
                                       fontStyle: FlutterFlowTheme.of(context)
-                                          .labelMedium
+                                          .titleMedium
                                           .fontStyle,
                                     ),
                                     letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
+                                    fontWeight: FlutterFlowTheme.of(context)
+                                        .titleMedium
+                                        .fontWeight,
                                     fontStyle: FlutterFlowTheme.of(context)
-                                        .labelMedium
+                                        .titleMedium
                                         .fontStyle,
                                   ),
                               elevation: 0.0,

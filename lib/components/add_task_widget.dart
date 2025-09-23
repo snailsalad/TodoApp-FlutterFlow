@@ -305,16 +305,18 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                 padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                 iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).customColor2,
-                textStyle: FlutterFlowTheme.of(context).labelMedium.override(
-                      font: GoogleFonts.inter(
-                        fontWeight: FontWeight.w500,
+                textStyle: FlutterFlowTheme.of(context).titleMedium.override(
+                      font: GoogleFonts.interTight(
+                        fontWeight:
+                            FlutterFlowTheme.of(context).titleMedium.fontWeight,
                         fontStyle:
-                            FlutterFlowTheme.of(context).labelMedium.fontStyle,
+                            FlutterFlowTheme.of(context).titleMedium.fontStyle,
                       ),
                       letterSpacing: 0.0,
-                      fontWeight: FontWeight.w500,
+                      fontWeight:
+                          FlutterFlowTheme.of(context).titleMedium.fontWeight,
                       fontStyle:
-                          FlutterFlowTheme.of(context).labelMedium.fontStyle,
+                          FlutterFlowTheme.of(context).titleMedium.fontStyle,
                     ),
                 elevation: 0.0,
                 borderSide: BorderSide(
